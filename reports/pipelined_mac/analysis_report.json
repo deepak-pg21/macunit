@@ -1,0 +1,52 @@
+{
+  "design_name": "pipelined_mac",
+  "config": "RUN_2025.12.11_09.23.14",
+  "std_cell_library": "sky130_fd_sc_hd",
+  "area": {
+    "die_area_mm2": 0.0148918929,
+    "core_area_um2": 10887.9424,
+    "cell_per_mm2": 39484.57082981036,
+    "core_utilization": 50.0,
+    "final_utilization": -1.0
+  },
+  "power": {
+    "typical_internal_uW": 0.000634,
+    "typical_switching_uW": 0.000482,
+    "typical_leakage_nW": 3.5199999999999998e-06,
+    "typical_total_uW": 0.00111600352
+  },
+  "timing": {
+    "wns_ns": 0.0,
+    "tns_ns": 0.0,
+    "critical_path_ns": 4.72,
+    "clock_period_ns": 10.0,
+    "suggested_clock_period_ns": 10.0,
+    "suggested_clock_freq_MHz": 100.0
+  },
+  "cells": {
+    "total_cells": 1565,
+    "non_physical_cells": 588,
+    "synth_cell_count": 524,
+    "dff_count": 0,
+    "and_gates": 62,
+    "nand_gates": 34,
+    "nor_gates": 38,
+    "or_gates": 42,
+    "xor_gates": 103,
+    "xnor_gates": 39,
+    "mux_count": 48
+  },
+  "routing": {
+    "wire_length": 12245,
+    "vias": 3930,
+    "triton_route_violations": 0,
+    "magic_violations": 0,
+    "lvs_total_errors": 0
+  },
+  "runtime": {
+    "total_runtime": "0h2m43s0ms",
+    "routed_runtime": "0h2m21s0ms",
+    "flow_status": "flow completed",
+    "peak_memory_MB": 532.33
+  }
+}
